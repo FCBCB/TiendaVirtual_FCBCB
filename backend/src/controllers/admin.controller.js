@@ -1,5 +1,5 @@
 import db from "../db.js";
-import { hashPassword } from "../services/Auth.service.js";
+import { hashPassword } from "../services/auth.service.js";
 
 class AdminController {
   // =====================================================
