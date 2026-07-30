@@ -1,0 +1,60 @@
+{
+  "numero": "MIC-ARICA-2026-001234",
+  "numeroRef": "Nro. Ref.: CRT-TCS-2026-001",
+  "hoja": "1/1",
+  "fechaEmision": "26/05/2026",
+  "transito": "SI",
+  "porteador": {
+    "nombre": "Transportes Cruz del Sur Internacional S.A.",
+    "direccion": "Av. Santa Cruz N° 1234, Oficina 5\nArica, Chile",
+    "extra": "RUT: 76.123.456-7\nRESOL: 123/2025 VTO. 31-12-2027\nSEGURO: POLIZA N° 789-000123456 CERT. 1-1 VTO. 31-12-2026"
+  },
+  "rutPorteador": "76.123.456-7",
+  "aduanaPartida": "Chile - Arica    123",
+  "destinoFinal": "Bolivia - La Paz    201",
+  "camionOriginal": {
+    "propietario": "Transportes Cruz del Sur Internacional S.A.",
+    "direccion": "Av. Santa Cruz N° 1234, Oficina 5\nArica, Chile",
+    "rut": "76.123.456-7",
+    "placa": "CL-AR-1234",
+    "marca": "SCANIA",
+    "vin": "9BSP2X40001234567",
+    "capacidad": "25",
+    "anio": "2019",
+    "remolque": "SEMIREMOLQUE / Semi-reboque\nPlaca: CL-RM-5678"
+  },
+  "camionSustituto": {},
+  "cartaPorte": "CRT-TCS-2026-001",
+  "aduanaDestino": "Bolivia - La Paz    201\nDep. Fiscal: ADUANA INTERIOR LA PAZ BOLIVIA\nCódigo: 201",
+  "depFiscal": "ADUANA INTERIOR LA PAZ",
+  "remitente": {
+    "nombre": "Shanghai Hongyuan Machinery Trading Co., Ltd.",
+    "direccion": "No. 888, Pudong Blvd, Shanghai FTZ\nShanghai, 200120 – China"
+  },
+  "moneda": "USD",
+  "origenMercancia": "China    156",
+  "valorFOT": "27,834.75",
+  "fleteUSD": "3,200.00",
+  "seguroUSD": "134.75",
+  "destinatario": {
+    "nombre": "Constructora Altiplano S.R.L.",
+    "nit": "123456789",
+    "direccion": "Av. 16 de Julio 1234, Edif. Torre Sur\nLa Paz – Bolivia"
+  },
+  "tipoBultos": "FLAT RACK",
+  "tipoBultosNum": "40'",
+  "cantidadBultos": "1",
+  "pesoBruto": "11,415",
+  "consignatario": {
+    "nombre": "Constructora Altiplano S.R.L.",
+    "nit": "123456789",
+    "direccion": "Av. 16 de Julio 1234, Edif. Torre Sur\nLa Paz – Bolivia"
+  },
+  "documentosAnexos": "CRT: CRT-TCS-2026-001\nFactura Comercial: SHY-CIF-2026-0422\nPacking List: PL-SHY-0422\nBill of Lading: MSC-ARICA-0422-2026\nCertificado de Origen: CO-CHN-2026-0422\nDeclaración IMO: IMO-NONHAZ-0422",
+  "precintos": "SGH-887231",
+  "descripcionMercancia": "1 UNIDAD DE EXCAVADORA MINI HIDRÁULICA USADA\nMARCA: XCMG, MODELO: XE75U, AÑO: 2020\nSERIE: XCMG075U2020E8823\nMOTOR: KUBOTA V2607 (55 HP)\nHORAS DE TRABAJO: 2,850 hrs\nDIMENSIONES: 6.15m x 2.20m x 2.55m\nPESO OPERATIVO: 7,580 kg\n\nMARCAS Y NÚMEROS:\nCONTENEDOR FLAT RACK 40' - ID: FR-4052\nSELLO: SGH-887231\n\nLASHING: Cadenas grado 80 (8 puntos)\nDUNNAGE: Madera ISPM-15\n\nCOMBUSTIBLE: Drenado (<5L)\nBATERÍA: Desconectada\nCARGA NO PELIGROSA - IMO Clase: N/A",
+  "rutaDTA": "ARICA (Chile) - TAMBO QUEMADO (Frontera) - PATACAMAYA - EL ALTO - LA PAZ (Bolivia)\n\nPlazo de transporte: 72 horas (3 días hábiles)\nRuta autorizada: Ruta 11-CH (Chile) / Ruta 1 (Bolivia)",
+  "rutDTA": "14688367-2",
+  "firmaDTA": "Carlos Rodríguez",
+  "firmaPorteador": "Transportes Cruz del Sur Internacional S.A.\nCarlos Rodríguez - Gerente Operaciones\n[Sello: Transportes Cruz del Sur]"
+}

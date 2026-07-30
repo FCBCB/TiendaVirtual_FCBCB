@@ -1,0 +1,103 @@
+{
+  "numero": "CRT-TCS-2026-001",
+  "tipoOperacion": "Ingreso",
+  "cargaFraccionada": "No Fraccionado",
+  "tipoCarga": "CARGA GENERAL",
+  "fechaEmision": "26/05/2026",
+  "lugarEmision": "Arica, Chile - 26/05/2026",
+  "documentoRelacionado": {
+    "tipo": "DAM",
+    "numero": "DAM-2026-001234"
+  },
+  "acondicionamiento": "CONTENERIZADA",
+  "remitente": {
+    "tipoDocumento": "NIT",
+    "numeroDocumento": "123456789",
+    "nombre": "Shanghai Hongyuan Machinery Trading Co., Ltd.",
+    "direccion": "No. 888, Pudong Blvd, Shanghai FTZ, Shanghai 200120, China",
+    "pais": "China",
+    "telefono": "+86-21-6789 1234"
+  },
+  "portador": {
+    "tipoDocumento": "RUT",
+    "numeroDocumento": "76.123.456-7",
+    "nombre": "Transportes Cruz del Sur Internacional S.A.",
+    "direccion": "Av. Santa Cruz N° 1234, Oficina 5, Arica, Chile",
+    "pais": "Chile",
+    "telefono": "+56-58-222 3456"
+  },
+  "destinatario": {
+    "tipoDocumento": "NIT",
+    "numeroDocumento": "123456789",
+    "nombre": "Constructora Altiplano S.R.L.",
+    "direccion": "Av. 16 de Julio 1234, Edif. Torre Sur, La Paz, Bolivia",
+    "pais": "Bolivia",
+    "telefono": "+591-71992933"
+  },
+  "consignatario": {
+    "nombre": "Constructora Altiplano S.R.L.",
+    "direccion": "Av. 16 de Julio 1234, Edif. Torre Sur, La Paz, Bolivia",
+    "nit": "123456789"
+  },
+  "notificar": {
+    "nombre": "Agencia Aduanera Bolivia S.R.L.",
+    "direccion": "Calle Comercio N° 456, Zona Central, La Paz, Bolivia",
+    "telefono": "+591-2-277 3344"
+  },
+  "lugarCargaFecha": "Arica, Chile - 26/05/2026",
+  "lugarEntregaPlazo": "La Paz, Bolivia - 10 días hábiles",
+  "portadoresSucesivos": "No aplica",
+  "mercancia": {
+    "descripcion": "EXCAVADORA MINI HIDRÁULICA USADA - MARCA: XCMG, MODELO: XE75U, AÑO: 2020",
+    "detalle": "SERIE: XCMG075U2020E8823, MOTOR: KUBOTA V2607 (55 HP), HORAS: 2,850 hrs, DIMENSIONES: 6.15m x 2.20m x 2.55m\nPESO OPERATIVO: 7,580 kg",
+    "cargaPeligrosa": "NO",
+    "claseIMO": "N/A",
+    "tipoEmbalaje": "FLAT RACK 40' - SIN TECHO NI PAREDES LATERALES",
+    "marcasNumeros": "FR-4052 / SGH-887231",
+    "cantidadBultos": "1",
+    "contenedores": "1 x 40' Flat Rack - ID: FR-4052"
+  },
+  "pesoBrutoKg": "11,415 kg",
+  "volumenM3": "34.5 m³",
+  "valor": {
+    "monto": "27,834.75",
+    "moneda": "USD"
+  },
+  "gastos": {
+    "flete": {
+      "remitente": "3,200.00",
+      "monRemitente": "USD",
+      "destinatario": "0",
+      "monDestinatario": "USD"
+    },
+    "seguro": {
+      "remitente": "134.75",
+      "monRemitente": "USD",
+      "destinatario": "0",
+      "monDestinatario": "USD"
+    },
+    "otros": {
+      "remitente": "450.00",
+      "monRemitente": "USD",
+      "destinatario": "0",
+      "monDestinatario": "USD"
+    },
+    "total": {
+      "remitente": "3,784.75",
+      "monRemitente": "USD",
+      "destinatario": "0",
+      "monDestinatario": "USD"
+    },
+    "desgloseFlete": "Flete marítimo Shanghai → Arica (USD 3,200.00) + Seguro (USD 134.75) + Arica port handling (USD 450.00) pagados por remitente. Flete terrestre Arica → La Paz (USD 1,800.00) pagado por destinatario."
+  },
+  "declaracionValor": "CIF Arica, Chile: USD 27,834.75 (Base imponible para Aduana Bolivia)",
+  "documentosAnexos": "- Factura Comercial SHY-CIF-2026-0422\n- Packing List PL-SHY-0422\n- Bill of Lading MSC-ARICA-0422-2026\n- Certificado de Origen (China)\n- Declaración IMO combustible <5L",
+  "instruccionesAduana": "Despacho anticipado en Aduana Bolivia. Presentar MIC/DTA en frontera Tambo Quemado. La mercancía continúa bajo tránsito aduanero hasta La Paz. IVA 13% y aranceles pagados por importador en Bolivia.",
+  "montoFleteExterno": "USD 1,800.00 (tramo Arica → La Paz)",
+  "montoReembolso": "0",
+  "observaciones": "Mercancía usada en buen estado operativo. Combustible drenado (<5L). Batería desconectada. Lashing con cadenas grado 80 en 8 puntos. Madera de dunnage certificada ISPM-15. No requiere tratamiento fitosanitario. El comprador asume todos los costos de importación en Bolivia (IVA 13% y aranceles).",
+  "firmaRemitente": "Jian Wei - Export Manager",
+  "firmaPortador": "Carlos Rodríguez - Gerente Operaciones\n[Sello: Transportes Cruz del Sur]",
+  "firmaDestinatario": "Joel Alejandro",
+  "fechaEmisionCRT": "26/05/2026"
+}

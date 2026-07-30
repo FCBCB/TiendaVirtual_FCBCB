@@ -1,0 +1,1078 @@
+﻿{
+    "versionExcel": "2.11",
+    "datosGenerales": {
+        "identificacionDeclaracion": {
+            "numeroReferencia": "UREAL01",
+            "aduanaDespacho": {
+                "codigo": "201",
+                "descripcion": "INTERIOR LA PAZ"
+            },
+            "formaEnvio": {
+                "codigo": "01",
+                "descripcion": "ENVIOS PARCIALES O FRACCIONADOS"
+            },
+            "cargaConsolidada": {
+                "codigo": "2",
+                "descripcion": "NO"
+            },
+            "destinoRegimenAduanero": {
+                "codigo": "40",
+                "descripcion": "IMPORTACION PARA EL CONSUMO"
+            },
+            "modalidadDespacho": {
+                "codigo": "01",
+                "descripcion": "GENERAL"
+            },
+            "modalidadRegimen": {
+                "codigo": "4000",
+                "descripcion": "GENERAL"
+            },
+            "tipoDam": "POR ENDOSO",
+            "desRegPos": null,
+            "modDesPos": null,
+            "emiParRec": {
+                "codigo": "2",
+                "descripcion": "CON DESCARGA"
+            },
+            "tipMer": null
+        },
+        "operadores": {
+            "importador": {
+                "numeroDocumento": "443447029",
+                "tipoDocumento": {
+                    "codigo": "NIT",
+                    "descripcion": "NÚMERO DE IDENTIFICACIÓN TRIBUTARIA"
+                }
+            },
+            "consignatario": {
+                "numeroDocumento": "443447029",
+                "tipoDocumento": {
+                    "codigo": "NIT",
+                    "descripcion": "NÚMERO DE IDENTIFICACIÓN TRIBUTARIA"
+                }
+            }
+        },
+        "lugares": {
+            "paisExportacion": {
+                "codigo": "PK",
+                "descripcion": "PAKISTÁN"
+            },
+            "paisProcedencia": {
+                "codigo": "PK",
+                "descripcion": "PAKISTÁN"
+            },
+            "paisTransito": {
+                "codigo": "CL",
+                "descripcion": "CHILE"
+            },
+            "aduanaIngreso": {
+                "codigo": "422",
+                "descripcion": "FRONTERA TAMBO QUEMADO"
+            },
+            "aduanaDestino": {
+                "codigo": "201",
+                "descripcion": "INTERIOR LA PAZ"
+            },
+            "lugarEntrega": "LA PAZ"
+        },
+        "transporte": {
+            "cargaPeligrosa": false,
+            "desdeFrontera": {
+                "codigo": "3",
+                "descripcion": "TRANSPORTE CARRETERO"
+            },
+            "hastaFrontera": {
+                "codigo": "6",
+                "descripcion": "TRANSPORTE MULTIMODAL"
+            },
+            "informacionDocumentosEmbarque": [
+                {
+                    "fechaEmbarque": "2025-10-28",
+                    "lugarEmbarque": {
+                        "codigo": "PKQCT",
+                        "descripcion": "QASIM INTERNATIONAL CONTAINER TERMINAL/KARACHI"
+                    },
+                    "paisEmbarque": {
+                        "codigo": "PK",
+                        "descripcion": "PAKISTÁN"
+                    },
+                    "numeroDocumentoEmbarque": "260405305",
+                    "tipoDocumentoEmbarque": {
+                        "codigo": "TR-002",
+                        "descripcion": "BILL OF LADING (BL) - CONOCIMIENTO DE EMBARQUE MARÍTIMO"
+                    },
+                    "provieneZonaFranca": {
+                        "codigo": "2",
+                        "descripcion": "NO"
+                    }
+                }
+            ]
+        }
+    },
+    "totalControlDeclaracion": {
+        "totalFob": "37707.93",
+        "totalBultos": "183",
+        "totalPesoBruto": "4390"
+    },
+    "proveedores": [
+        {
+            "tipoDocumento": null,
+            "numeroDocumento": null,
+            "razonSocial": "ATTA TRADERS",
+            "domicilio": {
+                "calleAvenida": "1/A QASIM TOWER ZAFAR ULLAH CHOWK",
+                "numero": "S/N",
+                "barrioZona": "SATELLITE TOWN",
+                "pais": {
+                    "codigo": "PK",
+                    "descripcion": "PAKISTÁN"
+                },
+                "departamento": {
+                    "codigo": "PB",
+                    "descripcion": "PUNJAB"
+                },
+                "ciudad": {
+                    "codigo": "PKSGI",
+                    "descripcion": "SARGODHA"
+                },
+                "telefonoFax": "+92-3098080083",
+                "sitioWeb": "HTTPS://WWW.ATTATRADERS.NET",
+                "correoElectronico": "attrataderspk11@gmail.com"
+            }
+        }
+    ],
+    "datosTransacciones": [
+        {
+            "proveedor": {
+                "numeroDocumento": "",
+                "razonSocial": "ATTA TRADERS",
+                "condicionVendedor": {
+                    "codigo": "03",
+                    "descripcion": "COMERCIANTE"
+                },
+                "especifiqueCondicionVendedor": null,
+                "paisAdquisicion": {
+                    "codigo": "PK",
+                    "descripcion": "PAKISTÁN"
+                }
+            },
+            "detalleTransaccion": {
+                "numeroFactura": "1010-B",
+                "fechaFactura": "2025-10-20",
+                "incoterms": {
+                    "condicionEntrega": {
+                        "codigo": "CFR",
+                        "descripcion": "COSTO Y FLETE"
+                    },
+                    "especifiqueCondicionEntrega": null,
+                    "lugarEntrega": "ARICA-CHILE"
+                },
+                "naturalezaTransaccion": {
+                    "codigo": "01",
+                    "descripcion": "COMPRAVENTA A PRECIO FIRME PARA LA EXPORTACION HACIA EL TERRITORIO ADUANERO DE LA COMUNIDAD ANDINA"
+                },
+                "especifiqueNaturalezaTransaccion": null,
+                "monedaTransaccion": {
+                    "codigo": "USD",
+                    "descripcion": "DÓLAR ESTADOUNIDENSE"
+                },
+                "valorTransaccion": "37707.93",
+                "tipoCambio": 0,
+                "destinoMercancia": {
+                    "codigo": "01",
+                    "descripcion": "USO O CONSUMO PROPIO"
+                },
+                "especifiqueDestinoMercancia": null,
+                "facturaSujetoDescuento": "false"
+            },
+            "detallePagoTransaccion": {
+                "formaPago": {
+                    "codigo": "1",
+                    "descripcion": "PAGO ANTICIPADO"
+                },
+                "formaPagoEspecifique": null,
+                "medioPago": {
+                    "codigo": "3",
+                    "descripcion": "ORDEN DE PAGO SIMPLE-TRANSFERENCIA BANCARIA"
+                },
+                "medioPagoEspecifique": null
+            },
+            "valoresCostos": {
+                "valorFobTotalUsd": "37707.93",
+                "valorCifTotalUsd": 0
+            },
+            "totalesControl": {
+                "numeroPaginas": "1",
+                "totalItems": "8",
+                "totalPesoNeto": "4200"
+            },
+            "observacionesGenerales": null
+        }
+    ],
+    "datosMercancias": [
+        {
+            "factura": {
+                "numeroFactura": "1010-B",
+                "proveedor": {
+                    "numeroDocumento": "",
+                    "razonSocial": "ATTA TRADERS"
+                }
+            },
+            "identificacionMercanciaItem": {
+                "subPartidaArancelaria": {
+                    "codigo": "8213000000",
+                    "descripcion": "Tijeras y sus hojas."
+                },
+                "unidadMedida": "UNIDAD (NÚMERO DE UNIDADES)",
+                "unidadFisicaConversion": 0,
+                "cantidadUnidadFisica": "7800",
+                "cantidadFisicaConversion": 0,
+                "unidadComercial": {
+                    "codigo": "KGM",
+                    "descripcion": "KILOGRAMO"
+                },
+                "unidadComercialEspecifique": null,
+                "cantidadUnidadComercial": "7800",
+                "precioUnitario": "1.15",
+                "paisOrigen": {
+                    "codigo": "PK",
+                    "descripcion": "PAKISTÁN"
+                },
+                "acuerdoComercial": null,
+                "criterioCalificacionOrigen": null,
+                "embalaje": {
+                    "codigo": "CT",
+                    "descripcion": "CAJA DE CARTON",
+                    "tag": "false"
+                },
+                "pesoNeto": "619",
+                "marcas": null,
+                "relacionItemBulto": null,
+                "estado": {
+                    "codigo": "1",
+                    "descripcion": "NUEVA"
+                },
+                "estadoEspecifique": null,
+                "descripcionMercanciaComercial": {
+                    "descripcionMinimasMercancias": [
+                        {
+                            "NombreMercancia": {
+                                "codigo": "COMUN",
+                                "descripcion": "Comunes"
+                            }
+                        },
+                        {
+                            "especifiqueNombreTxt": "Tijeras de barbero"
+                        },
+                        {
+                            "DescripcionComerciallaMercancia": "ATTA TRADERS"
+                        },
+                        {
+                            "Tipo": "Tijeras"
+                        },
+                        {
+                            "Clase": "Tijera"
+                        },
+                        {
+                            "Modelo": "Model #3"
+                        },
+                        {
+                            "Cuanti1": ""
+                        },
+                        {
+                            "Cuanti2": "Acero inoxidable"
+                        },
+                        {
+                            "ForPre": ""
+                        },
+                        {
+                            "Composicion": "metal"
+                        },
+                        {
+                            "Uso": {
+                                "codigo": "8",
+                                "descripcion": "ESTETICA Y COSMETICA"
+                            }
+                        },
+                        {
+                            "OtrasCaracteristicas": ""
+                        },
+                        {
+                            "AnoModelo": ""
+                        },
+                        {
+                            "AnoFabMer": ""
+                        }
+                    ],
+                    "tipoMercancia": {
+                        "codigo": "COMUN",
+                        "descripcion": "Comunes"
+                    },
+                    "codigoOrigenDescripcionMinima": null
+                }
+            },
+            "informacionValoresTransaccionItem": {
+                "valorTransaccionItemUSD": "897000",
+                "valorFOBItemUSD": "8970.00",
+                "valorFOBUnitarioUsd": "1.15"
+            },
+            "observaciones": 0
+        },
+        {
+            "factura": {
+                "numeroFactura": "1010-B",
+                "proveedor": {
+                    "numeroDocumento": "",
+                    "razonSocial": "ATTA TRADERS"
+                }
+            },
+            "identificacionMercanciaItem": {
+                "subPartidaArancelaria": {
+                    "codigo": "8213000000",
+                    "descripcion": "Tijeras y sus hojas."
+                },
+                "unidadMedida": "UNIDAD (NÚMERO DE UNIDADES)",
+                "unidadFisicaConversion": 0,
+                "cantidadUnidadFisica": "2773",
+                "cantidadFisicaConversion": 0,
+                "unidadComercial": {
+                    "codigo": "KGM",
+                    "descripcion": "KILOGRAMO"
+                },
+                "unidadComercialEspecifique": null,
+                "cantidadUnidadComercial": "2773",
+                "precioUnitario": "1.15",
+                "paisOrigen": {
+                    "codigo": "PK",
+                    "descripcion": "PAKISTÁN"
+                },
+                "acuerdoComercial": null,
+                "criterioCalificacionOrigen": null,
+                "embalaje": {
+                    "codigo": "CT",
+                    "descripcion": "CAJA DE CARTON",
+                    "tag": "false"
+                },
+                "pesoNeto": "219",
+                "marcas": null,
+                "relacionItemBulto": null,
+                "estado": {
+                    "codigo": "1",
+                    "descripcion": "NUEVA"
+                },
+                "estadoEspecifique": null,
+                "descripcionMercanciaComercial": {
+                    "descripcionMinimasMercancias": [
+                        {
+                            "NombreMercancia": {
+                                "codigo": "COMUN",
+                                "descripcion": "Comunes"
+                            }
+                        },
+                        {
+                            "especifiqueNombreTxt": "TIJERAS DE ENTRESACAR"
+                        },
+                        {
+                            "DescripcionComerciallaMercancia": "ATTA TRADERS"
+                        },
+                        {
+                            "Tipo": "TIJERAS"
+                        },
+                        {
+                            "Clase": "TIJERAS"
+                        },
+                        {
+                            "Modelo": "MODELO #3"
+                        },
+                        {
+                            "Cuanti1": ""
+                        },
+                        {
+                            "Cuanti2": "ACERO"
+                        },
+                        {
+                            "ForPre": ""
+                        },
+                        {
+                            "Composicion": "METAL"
+                        },
+                        {
+                            "Uso": {
+                                "codigo": "8",
+                                "descripcion": "ESTETICA Y COSMETICA"
+                            }
+                        },
+                        {
+                            "OtrasCaracteristicas": ""
+                        },
+                        {
+                            "AnoModelo": ""
+                        },
+                        {
+                            "AnoFabMer": ""
+                        }
+                    ],
+                    "tipoMercancia": {
+                        "codigo": "COMUN",
+                        "descripcion": "Comunes"
+                    },
+                    "codigoOrigenDescripcionMinima": null
+                }
+            },
+            "informacionValoresTransaccionItem": {
+                "valorTransaccionItemUSD": "318895",
+                "valorFOBItemUSD": "3188.95",
+                "valorFOBUnitarioUsd": "1.15"
+            },
+            "observaciones": 0
+        },
+        {
+            "factura": {
+                "numeroFactura": "1010-B",
+                "proveedor": {
+                    "numeroDocumento": "",
+                    "razonSocial": "ATTA TRADERS"
+                }
+            },
+            "identificacionMercanciaItem": {
+                "subPartidaArancelaria": {
+                    "codigo": "8213000000",
+                    "descripcion": "Tijeras y sus hojas."
+                },
+                "unidadMedida": "UNIDAD (NÚMERO DE UNIDADES)",
+                "unidadFisicaConversion": 0,
+                "cantidadUnidadFisica": "10549",
+                "cantidadFisicaConversion": 0,
+                "unidadComercial": {
+                    "codigo": "KGM",
+                    "descripcion": "KILOGRAMO"
+                },
+                "unidadComercialEspecifique": null,
+                "cantidadUnidadComercial": "10549",
+                "precioUnitario": "1",
+                "paisOrigen": {
+                    "codigo": "PK",
+                    "descripcion": "PAKISTÁN"
+                },
+                "acuerdoComercial": null,
+                "criterioCalificacionOrigen": null,
+                "embalaje": {
+                    "codigo": "CT",
+                    "descripcion": "CAJA DE CARTON",
+                    "tag": "false"
+                },
+                "pesoNeto": "836",
+                "marcas": null,
+                "relacionItemBulto": null,
+                "estado": {
+                    "codigo": "1",
+                    "descripcion": "NUEVA"
+                },
+                "estadoEspecifique": null,
+                "descripcionMercanciaComercial": {
+                    "descripcionMinimasMercancias": [
+                        {
+                            "NombreMercancia": {
+                                "codigo": "COMUN",
+                                "descripcion": "Comunes"
+                            }
+                        },
+                        {
+                            "especifiqueNombreTxt": "TIJERAS DE BARBERO"
+                        },
+                        {
+                            "DescripcionComerciallaMercancia": "ATTA TRADERS"
+                        },
+                        {
+                            "Tipo": "TIJERAS"
+                        },
+                        {
+                            "Clase": "TIJERAS"
+                        },
+                        {
+                            "Modelo": "MODELO #4"
+                        },
+                        {
+                            "Cuanti1": ""
+                        },
+                        {
+                            "Cuanti2": "ACERO"
+                        },
+                        {
+                            "ForPre": ""
+                        },
+                        {
+                            "Composicion": "METAL"
+                        },
+                        {
+                            "Uso": {
+                                "codigo": "8",
+                                "descripcion": "ESTETICA Y COSMETICA"
+                            }
+                        },
+                        {
+                            "OtrasCaracteristicas": ""
+                        },
+                        {
+                            "AnoModelo": ""
+                        },
+                        {
+                            "AnoFabMer": ""
+                        }
+                    ],
+                    "tipoMercancia": {
+                        "codigo": "COMUN",
+                        "descripcion": "Comunes"
+                    },
+                    "codigoOrigenDescripcionMinima": null
+                }
+            },
+            "informacionValoresTransaccionItem": {
+                "valorTransaccionItemUSD": "1054900",
+                "valorFOBItemUSD": "10549.00",
+                "valorFOBUnitarioUsd": "1"
+            },
+            "observaciones": 0
+        },
+        {
+            "factura": {
+                "numeroFactura": "1010-B",
+                "proveedor": {
+                    "numeroDocumento": "",
+                    "razonSocial": "ATTA TRADERS"
+                }
+            },
+            "identificacionMercanciaItem": {
+                "subPartidaArancelaria": {
+                    "codigo": "8213000000",
+                    "descripcion": "Tijeras y sus hojas."
+                },
+                "unidadMedida": "UNIDAD (NÚMERO DE UNIDADES)",
+                "unidadFisicaConversion": 0,
+                "cantidadUnidadFisica": "4100",
+                "cantidadFisicaConversion": 0,
+                "unidadComercial": {
+                    "codigo": "KGM",
+                    "descripcion": "KILOGRAMO"
+                },
+                "unidadComercialEspecifique": null,
+                "cantidadUnidadComercial": "4100",
+                "precioUnitario": "1",
+                "paisOrigen": {
+                    "codigo": "PK",
+                    "descripcion": "PAKISTÁN"
+                },
+                "acuerdoComercial": null,
+                "criterioCalificacionOrigen": null,
+                "embalaje": {
+                    "codigo": "CT",
+                    "descripcion": "CAJA DE CARTON",
+                    "tag": "false"
+                },
+                "pesoNeto": "325",
+                "marcas": null,
+                "relacionItemBulto": null,
+                "estado": {
+                    "codigo": "1",
+                    "descripcion": "NUEVA"
+                },
+                "estadoEspecifique": null,
+                "descripcionMercanciaComercial": {
+                    "descripcionMinimasMercancias": [
+                        {
+                            "NombreMercancia": {
+                                "codigo": "COMUN",
+                                "descripcion": "Comunes"
+                            }
+                        },
+                        {
+                            "especifiqueNombreTxt": "TIJERAS DE ENTRESACAR"
+                        },
+                        {
+                            "DescripcionComerciallaMercancia": "ATTA TRADERS"
+                        },
+                        {
+                            "Tipo": "TIJERAS"
+                        },
+                        {
+                            "Clase": "TIJERAS"
+                        },
+                        {
+                            "Modelo": "MODELO #4"
+                        },
+                        {
+                            "Cuanti1": ""
+                        },
+                        {
+                            "Cuanti2": "ACERO"
+                        },
+                        {
+                            "ForPre": ""
+                        },
+                        {
+                            "Composicion": "METAL"
+                        },
+                        {
+                            "Uso": {
+                                "codigo": "8",
+                                "descripcion": "ESTETICA Y COSMETICA"
+                            }
+                        },
+                        {
+                            "OtrasCaracteristicas": ""
+                        },
+                        {
+                            "AnoModelo": ""
+                        },
+                        {
+                            "AnoFabMer": ""
+                        }
+                    ],
+                    "tipoMercancia": {
+                        "codigo": "COMUN",
+                        "descripcion": "Comunes"
+                    },
+                    "codigoOrigenDescripcionMinima": null
+                }
+            },
+            "informacionValoresTransaccionItem": {
+                "valorTransaccionItemUSD": "410000",
+                "valorFOBItemUSD": "4100.00",
+                "valorFOBUnitarioUsd": "1"
+            },
+            "observaciones": 0
+        },
+        {
+            "factura": {
+                "numeroFactura": "1010-B",
+                "proveedor": {
+                    "numeroDocumento": "",
+                    "razonSocial": "ATTA TRADERS"
+                }
+            },
+            "identificacionMercanciaItem": {
+                "subPartidaArancelaria": {
+                    "codigo": "8212101000",
+                    "descripcion": "- - Navajas de afeitar"
+                },
+                "unidadMedida": "UNIDAD (NÚMERO DE UNIDADES)",
+                "unidadFisicaConversion": 0,
+                "cantidadUnidadFisica": "17808",
+                "cantidadFisicaConversion": 0,
+                "unidadComercial": {
+                    "codigo": "KGM",
+                    "descripcion": "KILOGRAMO"
+                },
+                "unidadComercialEspecifique": null,
+                "cantidadUnidadComercial": "187808",
+                "precioUnitario": "0.20",
+                "paisOrigen": {
+                    "codigo": "PK",
+                    "descripcion": "PAKISTÁN"
+                },
+                "acuerdoComercial": null,
+                "criterioCalificacionOrigen": null,
+                "embalaje": {
+                    "codigo": "CT",
+                    "descripcion": "CAJA DE CARTON",
+                    "tag": "false"
+                },
+                "pesoNeto": "1411",
+                "marcas": null,
+                "relacionItemBulto": null,
+                "estado": {
+                    "codigo": "1",
+                    "descripcion": "NUEVA"
+                },
+                "estadoEspecifique": null,
+                "descripcionMercanciaComercial": {
+                    "descripcionMinimasMercancias": [
+                        {
+                            "NombreMercancia": {
+                                "codigo": "COMUN",
+                                "descripcion": "Comunes"
+                            }
+                        },
+                        {
+                            "especifiqueNombreTxt": "NAVAJAS DE AFEITAR"
+                        },
+                        {
+                            "DescripcionComerciallaMercancia": "ATTA TRADERS"
+                        },
+                        {
+                            "Tipo": "NAVAJAS"
+                        },
+                        {
+                            "Clase": "NAVAJAS"
+                        },
+                        {
+                            "Modelo": "MODELO 1900"
+                        },
+                        {
+                            "Cuanti1": ""
+                        },
+                        {
+                            "Cuanti2": "ACERO"
+                        },
+                        {
+                            "ForPre": ""
+                        },
+                        {
+                            "Composicion": "METAL"
+                        },
+                        {
+                            "Uso": {
+                                "codigo": "8",
+                                "descripcion": "ESTETICA Y COSMETICA"
+                            }
+                        },
+                        {
+                            "OtrasCaracteristicas": ""
+                        },
+                        {
+                            "AnoModelo": ""
+                        },
+                        {
+                            "AnoFabMer": ""
+                        }
+                    ],
+                    "tipoMercancia": {
+                        "codigo": "COMUN",
+                        "descripcion": "Comunes"
+                    },
+                    "codigoOrigenDescripcionMinima": null
+                }
+            },
+            "informacionValoresTransaccionItem": {
+                "valorTransaccionItemUSD": "3561,6",
+                "valorFOBItemUSD": "3561.60",
+                "valorFOBUnitarioUsd": "0.20"
+            },
+            "observaciones": 0
+        },
+        {
+            "factura": {
+                "numeroFactura": "1010-B",
+                "proveedor": {
+                    "numeroDocumento": "",
+                    "razonSocial": "ATTA TRADERS"
+                }
+            },
+            "identificacionMercanciaItem": {
+                "subPartidaArancelaria": {
+                    "codigo": "8212101000",
+                    "descripcion": "- - Navajas de afeitar"
+                },
+                "unidadMedida": "UNIDAD (NÚMERO DE UNIDADES)",
+                "unidadFisicaConversion": 0,
+                "cantidadUnidadFisica": "374",
+                "cantidadFisicaConversion": 0,
+                "unidadComercial": {
+                    "codigo": "KGM",
+                    "descripcion": "KILOGRAMO"
+                },
+                "unidadComercialEspecifique": null,
+                "cantidadUnidadComercial": "374",
+                "precioUnitario": "0.35",
+                "paisOrigen": {
+                    "codigo": "PK",
+                    "descripcion": "PAKISTÁN"
+                },
+                "acuerdoComercial": null,
+                "criterioCalificacionOrigen": null,
+                "embalaje": {
+                    "codigo": "CT",
+                    "descripcion": "CAJA DE CARTON",
+                    "tag": "false"
+                },
+                "pesoNeto": "30",
+                "marcas": null,
+                "relacionItemBulto": null,
+                "estado": {
+                    "codigo": "1",
+                    "descripcion": "NUEVA"
+                },
+                "estadoEspecifique": null,
+                "descripcionMercanciaComercial": {
+                    "descripcionMinimasMercancias": [
+                        {
+                            "NombreMercancia": {
+                                "codigo": "COMUN",
+                                "descripcion": "Comunes"
+                            }
+                        },
+                        {
+                            "especifiqueNombreTxt": "NAVAJAS DE AFEITAR"
+                        },
+                        {
+                            "DescripcionComerciallaMercancia": "ATTA TRADERS"
+                        },
+                        {
+                            "Tipo": "NAVAJAS"
+                        },
+                        {
+                            "Clase": "NAVAJAS"
+                        },
+                        {
+                            "Modelo": "MODELO RAZORS"
+                        },
+                        {
+                            "Cuanti1": ""
+                        },
+                        {
+                            "Cuanti2": "ACERO"
+                        },
+                        {
+                            "ForPre": ""
+                        },
+                        {
+                            "Composicion": "METAL"
+                        },
+                        {
+                            "Uso": {
+                                "codigo": "8",
+                                "descripcion": "ESTETICA Y COSMETICA"
+                            }
+                        },
+                        {
+                            "OtrasCaracteristicas": ""
+                        },
+                        {
+                            "AnoModelo": ""
+                        },
+                        {
+                            "AnoFabMer": ""
+                        }
+                    ],
+                    "tipoMercancia": {
+                        "codigo": "COMUN",
+                        "descripcion": "Comunes"
+                    },
+                    "codigoOrigenDescripcionMinima": null
+                }
+            },
+            "informacionValoresTransaccionItem": {
+                "valorTransaccionItemUSD": "138,38",
+                "valorFOBItemUSD": "138.38",
+                "valorFOBUnitarioUsd": "0.35"
+            },
+            "observaciones": 0
+        },
+        {
+            "factura": {
+                "numeroFactura": "1010-B",
+                "proveedor": {
+                    "numeroDocumento": "",
+                    "razonSocial": "ATTA TRADERS"
+                }
+            },
+            "identificacionMercanciaItem": {
+                "subPartidaArancelaria": {
+                    "codigo": "8213000000",
+                    "descripcion": "Tijeras y sus hojas."
+                },
+                "unidadMedida": "UNIDAD (NÚMERO DE UNIDADES)",
+                "unidadFisicaConversion": 0,
+                "cantidadUnidadFisica": "7800",
+                "cantidadFisicaConversion": 0,
+                "unidadComercial": {
+                    "codigo": "KGM",
+                    "descripcion": "KILOGRAMO"
+                },
+                "unidadComercialEspecifique": null,
+                "cantidadUnidadComercial": "7800",
+                "precioUnitario": "0.75",
+                "paisOrigen": {
+                    "codigo": "PK",
+                    "descripcion": "PAKISTÁN"
+                },
+                "acuerdoComercial": null,
+                "criterioCalificacionOrigen": null,
+                "embalaje": {
+                    "codigo": "CT",
+                    "descripcion": "CAJA DE CARTON",
+                    "tag": "false"
+                },
+                "pesoNeto": "618",
+                "marcas": null,
+                "relacionItemBulto": null,
+                "estado": {
+                    "codigo": "1",
+                    "descripcion": "NUEVA"
+                },
+                "estadoEspecifique": null,
+                "descripcionMercanciaComercial": {
+                    "descripcionMinimasMercancias": [
+                        {
+                            "NombreMercancia": {
+                                "codigo": "COMUN",
+                                "descripcion": "Comunes"
+                            }
+                        },
+                        {
+                            "especifiqueNombreTxt": "TIJERAS DE PELUQUERO SIMPLE"
+                        },
+                        {
+                            "DescripcionComerciallaMercancia": "ATTA TRADERS"
+                        },
+                        {
+                            "Tipo": "TIJERAS"
+                        },
+                        {
+                            "Clase": "TIJERAS"
+                        },
+                        {
+                            "Modelo": "MODELO : SIMPLE BARBER SCISSORS"
+                        },
+                        {
+                            "Cuanti1": ""
+                        },
+                        {
+                            "Cuanti2": "ACERO"
+                        },
+                        {
+                            "ForPre": ""
+                        },
+                        {
+                            "Composicion": "METAL"
+                        },
+                        {
+                            "Uso": {
+                                "codigo": "8",
+                                "descripcion": "ESTETICA Y COSMETICA"
+                            }
+                        },
+                        {
+                            "OtrasCaracteristicas": ""
+                        },
+                        {
+                            "AnoModelo": ""
+                        },
+                        {
+                            "AnoFabMer": ""
+                        }
+                    ],
+                    "tipoMercancia": {
+                        "codigo": "COMUN",
+                        "descripcion": "Comunes"
+                    },
+                    "codigoOrigenDescripcionMinima": null
+                }
+            },
+            "informacionValoresTransaccionItem": {
+                "valorTransaccionItemUSD": "585000",
+                "valorFOBItemUSD": "5850.00",
+                "valorFOBUnitarioUsd": "0.75"
+            },
+            "observaciones": 0
+        },
+        {
+            "factura": {
+                "numeroFactura": "1010-B",
+                "proveedor": {
+                    "numeroDocumento": "",
+                    "razonSocial": "ATTA TRADERS"
+                }
+            },
+            "identificacionMercanciaItem": {
+                "subPartidaArancelaria": {
+                    "codigo": "8213000000",
+                    "descripcion": "Tijeras y sus hojas."
+                },
+                "unidadMedida": "UNIDAD (NÚMERO DE UNIDADES)",
+                "unidadFisicaConversion": 0,
+                "cantidadUnidadFisica": "1800",
+                "cantidadFisicaConversion": 0,
+                "unidadComercial": {
+                    "codigo": "KGM",
+                    "descripcion": "KILOGRAMO"
+                },
+                "unidadComercialEspecifique": null,
+                "cantidadUnidadComercial": "1800",
+                "precioUnitario": "0.75",
+                "paisOrigen": {
+                    "codigo": "PK",
+                    "descripcion": "PAKISTÁN"
+                },
+                "acuerdoComercial": null,
+                "criterioCalificacionOrigen": null,
+                "embalaje": {
+                    "codigo": "CT",
+                    "descripcion": "CAJA DE CARTON",
+                    "tag": "false"
+                },
+                "pesoNeto": "142",
+                "marcas": null,
+                "relacionItemBulto": null,
+                "estado": {
+                    "codigo": "1",
+                    "descripcion": "NUEVA"
+                },
+                "estadoEspecifique": null,
+                "descripcionMercanciaComercial": {
+                    "descripcionMinimasMercancias": [
+                        {
+                            "NombreMercancia": {
+                                "codigo": "COMUN",
+                                "descripcion": "Comunes"
+                            }
+                        },
+                        {
+                            "especifiqueNombreTxt": "TIJERAS DE ENTRESACAR SIMPLE"
+                        },
+                        {
+                            "DescripcionComerciallaMercancia": "ATTA TRADERS"
+                        },
+                        {
+                            "Tipo": "TIJERAS"
+                        },
+                        {
+                            "Clase": "TIJERAS"
+                        },
+                        {
+                            "Modelo": "MODELO: SIMPLE THINNING SCISSORS"
+                        },
+                        {
+                            "Cuanti1": ""
+                        },
+                        {
+                            "Cuanti2": "ACERO"
+                        },
+                        {
+                            "ForPre": ""
+                        },
+                        {
+                            "Composicion": "METAL"
+                        },
+                        {
+                            "Uso": {
+                                "codigo": "8",
+                                "descripcion": "ESTETICA Y COSMETICA"
+                            }
+                        },
+                        {
+                            "OtrasCaracteristicas": ""
+                        },
+                        {
+                            "AnoModelo": ""
+                        },
+                        {
+                            "AnoFabMer": ""
+                        }
+                    ],
+                    "tipoMercancia": {
+                        "codigo": "COMUN",
+                        "descripcion": "Comunes"
+                    },
+                    "codigoOrigenDescripcionMinima": null
+                }
+            },
+            "informacionValoresTransaccionItem": {
+                "valorTransaccionItemUSD": "135000",
+                "valorFOBItemUSD": "1350.00",
+                "valorFOBUnitarioUsd": "0.75"
+            },
+            "observaciones": 0
+        }
+    ]
+}

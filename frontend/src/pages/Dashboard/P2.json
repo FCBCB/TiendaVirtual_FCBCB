@@ -1,0 +1,371 @@
+{
+    "versionExcel": "2.11",
+    "datosGenerales": {
+        "identificacionDeclaracion": {
+            "numeroReferencia": "D-012345",
+            "aduanaDespacho": {
+                "codigo": "201",
+                "descripcion": "INTERIOR LA PAZ"
+            },
+            "formaEnvio": {
+                "codigo": "01",
+                "descripcion": "ENVIO TOTAL"
+            },
+            "cargaConsolidada": {
+                "codigo": "2",
+                "descripcion": "NO"
+            },
+            "destinoRegimenAduanero": {
+                "codigo": "40",
+                "descripcion": "DEPOSITO DE ADUANA"
+            },
+            "modalidadDespacho": {
+                "codigo": "01",
+                "descripcion": "GENERAL"
+            },
+            "modalidadRegimen": {
+                "codigo": "7000",
+                "descripcion": "DEPOSITO TEMPORAL"
+            },
+            "tipoDam": "POR ENDOSO",
+            "desRegPos": null,
+            "modDesPos": null,
+            "emiParRec": {
+                "codigo": "2",
+                "descripcion": "CON DESCARGA"
+            },
+            "tipMer": null
+        },
+"operadores": {
+  "importador": {
+    "numeroDocumento": "123456789",
+    "tipoDocumento": {
+      "codigo": "NIT",
+      "descripcion": "NÚMERO DE IDENTIFICACIÓN TRIBUTARIA"
+    },
+    "razonSocial": "JOEL ALEJANDRO",
+    "categoria": "PERSONA NATURAL",
+    "domicilio": {
+      "calleAvenida": "Av. Capitan Ravelo",
+      "numero": "S/N",
+      "barrioZona": "Universidad de",
+      "ciudad": "La Paz",
+      "pais": {
+        "codigo": "BO",
+        "descripcion": "BOLIVIA"
+      },
+      "telefono": "+591-71992933",
+      "correoElectronico": "joel.alejandro@gmail.com"
+    }
+  },
+  "consignatario": {
+    "numeroDocumento": "123456789",
+    "tipoDocumento": {
+      "codigo": "NIT",
+      "descripcion": "NÚMERO DE IDENTIFICACIÓN TRIBUTARIA"
+    },
+    "razonSocial": "JOEL ALEJANDRO",
+    "categoria": "PERSONA NATURAL",
+    "domicilio": {
+      "calleAvenida": "Av. Capitan Ravelo",
+      "numero": "S/N",
+      "barrioZona": "Universidad de",
+      "ciudad": "La Paz",
+      "pais": {
+        "codigo": "BO",
+        "descripcion": "BOLIVIA"
+      },
+      "telefono": "+591-71992933",
+      "correoElectronico": "joel.alejandro@gmail.com"
+    }
+  },
+  "declarante": {
+    "numeroDocumento": "123456789",
+    "tipoDocumento": {
+      "codigo": "NIT",
+      "descripcion": "NÚMERO DE IDENTIFICACIÓN TRIBUTARIA"
+    },
+    "razonSocial": "DESPACHANTE DE ADUANA",
+    "categoria": "AGENTE ADUANAL",
+    "domicilio": {
+      "calleAvenida": "",
+      "numero": "",
+      "barrioZona": "",
+      "ciudad": "La Paz",
+      "pais": {
+        "codigo": "BO",
+        "descripcion": "BOLIVIA"
+      },
+      "telefono": "+591-66151415",
+      "correoElectronico": "joo@gmail.com"
+    }
+  }
+},
+        "lugares": {
+            "paisExportacion": {
+                "codigo": "CN",
+                "descripcion": "CHINA"
+            },
+            "paisProcedencia": {
+                "codigo": "CN",
+                "descripcion": "CHINA"
+            },
+            "paisTransito": {
+                "codigo": "US",
+                "descripcion": "ESTADOS UNIDOS"
+            },
+            "aduanaIngreso": {
+                "codigo": "201",
+                "descripcion": "AEROPUERTO EL ALTO (LPB)"
+            },
+            "aduanaDestino": {
+                "codigo": "201",
+                "descripcion": "INTERIOR LA PAZ"
+            },
+            "lugarEntrega": "LA PAZ"
+        },
+        "transporte": {
+            "cargaPeligrosa": false,
+            "desdeFrontera": {
+                "codigo": "3",
+                "descripcion": "TRANSPORTE CARRETERO"
+            },
+            "hastaFrontera": {
+                "codigo": "6",
+                "descripcion": "TRANSPORTE MULTIMODAL"
+            },
+            "informacionDocumentosEmbarque": [
+                {
+                    "fechaEmbarque": "2026-03-09",
+                    "lugarEmbarque": {
+                        "codigo": "CNCAN",
+                        "descripcion": "GUANGZHOU BAIYUN INTERNATIONAL AIRPORT (CAN)"
+                    },
+                    "paisEmbarque": {
+                        "codigo": "CN",
+                        "descripcion": "CHINA"
+                    },
+                    "numeroDocumentoEmbarque": "034-1234567 01234567",
+                    "tipoDocumentoEmbarque": {
+                        "codigo": "034-1234567 ",
+                        "descripcion": "AIR WAYBILL (AWB) - CARTA DE PORTE AÉREO"
+                    },
+                    "provieneZonaFranca": {
+                        "codigo": "2",
+                        "descripcion": "NO"
+                    }
+                }
+            ]
+        }
+    },
+    "totalControlDeclaracion": {
+        "totalFob": "11125.00",
+        "totalBultos": "10",
+        "totalPesoBruto": "66.25"
+    },
+    "proveedores": [
+        {
+            "tipoDocumento": null,
+            "numeroDocumento": null,
+            "razonSocial": "Guangdong Jiajianle Technology Co., Ltd.",
+            "domicilio": {
+                "calleAvenida": "No. 123 Huanshi Road, Baiyun District",
+                "numero": "S/N",
+                "barrioZona": "Baiyun District",
+                "pais": {
+                    "codigo": "CN",
+                    "descripcion": "CHINA"
+                },
+                "departamento": {
+                    "codigo": "GD",
+                    "descripcion": "GUANGDONG"
+                },
+                "ciudad": {
+                    "codigo": "CNCAN",
+                    "descripcion": "GUANGZHOU"
+                },
+                "telefonoFax": "+86-20-12345678",
+                "sitioWeb": "www.jiajianle.com",
+                "correoElectronico": "sales@jiajianle.com"
+            }
+        }
+    ],
+    "datosTransacciones": [
+        {
+            "proveedor": {
+                "numeroDocumento": "",
+                "razonSocial": "Guangdong Jiajianle Technology Co., Ltd.",
+                "condicionVendedor": {
+                    "codigo": "01",
+                    "descripcion": "FABRICANTE"
+                },
+                "especifiqueCondicionVendedor": null,
+                "paisAdquisicion": {
+                    "codigo": "CN",
+                    "descripcion": "CHINA"
+                }
+            },
+            "detalleTransaccion": {
+                "numeroFactura": "JJL-J962-2026-002",
+                "fechaFactura": "2026-03-09",
+                "incoterms": {
+                    "condicionEntrega": {
+                        "codigo": "DAP",
+                        "descripcion": "DELIVERED AT PLACE"
+                    },
+                    "especifiqueCondicionEntrega": null,
+                    "lugarEntrega": "LA PAZ, BOLIVIA"
+                },
+"naturalezaTransaccion": {
+    "codigo": "01",
+    "descripcion": "COMPRAVENTA A PRECIO FIRME"
+},
+                "especifiqueNaturalezaTransaccion": null,
+                "monedaTransaccion": {
+                    "codigo": "USD",
+                    "descripcion": "DÓLAR ESTADOUNIDENSE"
+                },
+                "valorTransaccion": "11975.63",
+                "tipoCambio": 0,
+                "destinoMercancia": {
+                    "codigo": "02",
+                    "descripcion": "COMERCIALIZACION - VENTA"
+                },
+                "especifiqueDestinoMercancia": null,
+                "facturaSujetoDescuento": "false"
+            },
+            "detallePagoTransaccion": {
+                "formaPago": {
+                    "codigo": "1",
+                    "descripcion": "PAGO ANTICIPADO"
+                },
+                "formaPagoEspecifique": null,
+                "medioPago": {
+                    "codigo": "3",
+                    "descripcion": "ORDEN DE PAGO SIMPLE-TRANSFERENCIA BANCARIA"
+                },
+                "medioPagoEspecifique": null
+            },
+            "valoresCostos": {
+                "valorFobTotalUsd": "11125.00",
+                "valorCifTotalUsd": "11975.63"
+            },
+            "totalesControl": {
+                "numeroPaginas": "1",
+                "totalItems": "1",
+                "totalPesoNeto": "56.25"
+            },
+            "observacionesGenerales": null
+        }
+    ],
+    "datosMercancias": [
+        {
+            "factura": {
+                "numeroFactura": "D-012345",
+                "proveedor": {
+                    "numeroDocumento": "",
+                    "razonSocial": "Guangdong Jiajianle Technology Co., Ltd."
+                }
+            },
+            "identificacionMercanciaItem": {
+                "subPartidaArancelaria": {
+                    "codigo": "9021400000",
+                    "descripcion": "Aparatos de audición (audífonos)"
+                },
+                "unidadMedida": "UNIDAD (NÚMERO DE UNIDADES)",
+                "unidadFisicaConversion": 0,
+                "cantidadUnidadFisica": "250",
+                "cantidadFisicaConversion": 0,
+                "unidadComercial": {
+                    "codigo": "KGM",
+                    "descripcion": "KILOGRAMO"
+                },
+                "unidadComercialEspecifique": null,
+                "cantidadUnidadComercial": "66.25",
+                "precioUnitario": "44.50",
+                "paisOrigen": {
+                    "codigo": "CN",
+                    "descripcion": "CHINA"
+                },
+                "acuerdoComercial": null,
+                "criterioCalificacionOrigen": null,
+                "embalaje": {
+                    "codigo": "CT",
+                    "descripcion": "CAJA DE CARTON",
+                    "tag": "false"
+                },
+                "pesoNeto": "56.25",
+                "marcas": "JOEL-LPZ-001 / CARTON 1/10 to 10/10",
+                "relacionItemBulto": "1/10",
+                "estado": {
+                    "codigo": "1",
+                    "descripcion": "NUEVA"
+                },
+                "estadoEspecifique": null,
+                "descripcionMercanciaComercial": {
+                    "descripcionMinimasMercancias": [
+                        {
+                            "NombreMercancia": {
+                                "codigo": "COMUN",
+                                "descripcion": "Comunes"
+                            }
+                        },
+                        {
+                            "especifiqueNombreTxt": "J-962 Rechargeable Hearing Aid / Sound Amplifier"
+                        },
+                        {
+                            "DescripcionComerciallaMercancia": "JiaJianLe"
+                        },
+                        {
+                            "Tipo": "Hearing Aid"
+                        },
+                        {
+                            "Clase": "Class II"
+                        },
+                        {
+                            "Modelo": "J-962 (Upgraded)"
+                        },
+                        {
+                            "Cuanti1": "2 Channels"
+                        },
+                        {
+                            "Cuanti2": "Mild to moderate hearing loss"
+                        },
+                        {
+                            "ForPre": "Rechargeable"
+                        },
+                        {
+                            "Composicion": "ABS + Medical-grade silicone"
+                        },
+                        {
+                            "Uso": {
+                                "codigo": "4",
+                                "descripcion": "USO MÉDICO"
+                            }
+                        },
+                        {
+                            "OtrasCaracteristicas": "Noise cancellation, Adjustable volume"
+                        },
+                        {
+                            "AnoModelo": "2026"
+                        },
+                        {
+                            "AnoFabMer": "2026"
+                        }
+                    ],
+                    "tipoMercancia": {
+                        "codigo": "COMUN",
+                        "descripcion": "Comunes"
+                    },
+                    "codigoOrigenDescripcionMinima": null
+                }
+            },
+            "informacionValoresTransaccionItem": {
+                "valorTransaccionItemUSD": "11125.00",
+                "valorFOBItemUSD": "11125.00",
+                "valorFOBUnitarioUsd": "44.50"
+            },
+            "observaciones": 0
+        }
+    ]
+}
